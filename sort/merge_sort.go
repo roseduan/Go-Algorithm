@@ -1,7 +1,6 @@
 package sort
 
 //归并排序
-
 func MergeSort(data []int) {
 	mergeSortHelper(data, 0, len(data)-1)
 }
